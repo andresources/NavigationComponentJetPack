@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#E91E63"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="Start Game" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:transitionName="hero_image"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="wrap_content"
+        android:text="Start Game"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/startActivityButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:text="Start Activity"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
